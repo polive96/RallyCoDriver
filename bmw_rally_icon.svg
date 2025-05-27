@@ -1,0 +1,17 @@
+<svg width="100" height="60" xmlns="http://www.w3.org/2000/svg">
+  <!-- Car body -->
+  <rect x="10" y="20" width="80" height="30" fill="blue" stroke="black" stroke-width="1"/>
+  <!-- Roof -->
+  <rect x="30" y="10" width="40" height="10" fill="blue" stroke="black" stroke-width="1"/>
+  <!-- Windows -->
+  <rect x="32" y="12" width="15" height="8" fill="lightblue"/> <!-- Front window -->
+  <rect x="50" y="12" width="18" height="8" fill="lightblue"/> <!-- Side window -->
+  <!-- Wheels -->
+  <circle cx="25" cy="45" r="8" fill="black"/>
+  <circle cx="75" cy="45" r="8" fill="black"/>
+  <!-- Spoiler -->
+  <rect x="80" y="15" width="15" height="5" fill="darkblue" stroke="black" stroke-width="1"/>
+  <!-- Rally lights (front) -->
+  <circle cx="15" cy="25" r="3" fill="yellow" stroke="black" stroke-width="0.5"/>
+  <circle cx="22" cy="25" r="3" fill="yellow" stroke="black" stroke-width="0.5"/>
+</svg>

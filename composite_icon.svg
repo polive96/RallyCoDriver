@@ -1,0 +1,33 @@
+<svg width="108" height="108" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Background -->
+  <rect width="108" height="108" fill="white"/>
+  <!-- Foreground (car) -->
+  <!-- Original foreground is 100x60. Scaled to fit 72x72 box.
+       Aspect ratio 100/60 = 5/3.
+       New width = 72. New height = 72 * (60/100) = 43.2.
+       Centering this 72x43.2 image in a 72x72 box:
+       x_offset_for_box = (108-72)/2 = 18.
+       y_offset_for_box = (108-72)/2 = 18.
+       y_offset_for_car_within_box = (72-43.2)/2 = 14.4.
+       Final x for car SVG = 18.
+       Final y for car SVG = 18 + 14.4 = 32.4.
+  -->
+  <svg x="18" y="32.4" width="72" height="43.2" viewBox="0 0 100 60">
+    <!-- Original content of icon_foreground.svg -->
+    <!-- Car body -->
+    <rect x="10" y="20" width="80" height="30" fill="blue" stroke="black" stroke-width="1.5"/>
+    <!-- Roof -->
+    <rect x="30" y="10" width="40" height="10" fill="blue" stroke="black" stroke-width="1.5"/>
+    <!-- Windows -->
+    <rect x="32" y="12" width="15" height="7" fill="lightblue" stroke="black" stroke-width="0.5"/> <!-- Front window -->
+    <rect x="50" y="12" width="18" height="7" fill="lightblue" stroke="black" stroke-width="0.5"/> <!-- Side window -->
+    <!-- Wheels -->
+    <circle cx="25" cy="45" r="8" fill="black"/>
+    <circle cx="75" cy="45" r="8" fill="black"/>
+    <!-- Spoiler -->
+    <rect x="80" y="18" width="15" height="5" fill="black" stroke="black" stroke-width="1"/>
+    <!-- Rally lights (front) -->
+    <circle cx="15" cy="32" r="3" fill="yellow" stroke="black" stroke-width="1"/>
+    <circle cx="22" cy="32" r="3" fill="yellow" stroke="black" stroke-width="1"/>
+  </svg>
+</svg>
