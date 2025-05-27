@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.oliveracing.rallycodriver
 
 data class PaceNote(
     val radius: Int,

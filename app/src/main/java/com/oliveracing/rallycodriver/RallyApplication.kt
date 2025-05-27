@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.oliveracing.rallycodriver
 
 import android.app.Application
 import org.koin.android.ext.koin.androidContext

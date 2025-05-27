@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.oliveracing.rallycodriver
 
 import android.net.Uri
 import android.os.Bundle
@@ -62,7 +62,6 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun RallyAppScreen(rallyViewModel: RallyViewModel, onLoadFileClicked: () -> Unit) {
     val currentNote by rallyViewModel.currentPaceNote.collectAsState()
-    val context = LocalContext.current // For potential Toasts or other context needs
 
     Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         Column(

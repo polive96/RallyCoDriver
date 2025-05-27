@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.oliveracing.rallycodriver
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -38,7 +38,7 @@ class RallyViewModel(private val paceNoteParser: PaceNoteParser) : ViewModel() {
     }
 
     fun loadNotesFromString(csvData: String) {
-        val parsedNotes = paceNoteParser.parse(csvData)
+        val parsedNotes = PaceNoteParser.parse(csvData)
         _paceNotes.clear()
         _paceNotes.addAll(parsedNotes)
         if (_paceNotes.isNotEmpty()) {

@@ -1,5 +1,7 @@
-package com.example.myapplication
+package com.oliveracing.rallycodriver
 
+import com.oliveracing.rallycodriver.PaceNote
+import com.oliveracing.rallycodriver.PaceNoteParser
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

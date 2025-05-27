@@ -1,6 +1,9 @@
-package com.example.myapplication
+package com.oliveracing.rallycodriver
 
 import app.cash.turbine.test
+import com.oliveracing.rallycodriver.PaceNote
+import com.oliveracing.rallycodriver.PaceNoteParser
+import com.oliveracing.rallycodriver.RallyViewModel
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify
